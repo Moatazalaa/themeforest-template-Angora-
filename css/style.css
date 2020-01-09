@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    font-family:"Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item{
+    padding: 0px 10px;
+    
+
+    
+}
+.nav-link{
+    color:rgb(36, 36, 36)!important;
+    font-size:13px;
+    font-weight:500;
+    line-height:20px;
+    transition: 0.3s color;
+}
+.nav-link:hover{
+    color:#f25454 !important;
+}
+.nav-social{
+    font-size:25px;
+    line-height:25px;
+    color: black;
+}
+header .carousel-inner .first {
+    background-image: url(../images/slideshow-1.jpg);
+    height: 100%;
+    background-size: cover;
+    
+}
+header .carousel-inner .layer {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+header .carousel-inner .second {
+    background-image: url(../images/slideshow-2.jpg);
+    height: 100%;
+    background-size: cover;
+    
+    
+}
+header .carousel-inner .third {
+    background-image: url(../images/slideshow-3.jpg);
+    height: 100%;
+    background-size: cover;
+    
+    
+}
+header .carousel-inner  h1{
+    font-size:100px;
+    font-weight:700;
+    letter-spacing:-3px;
+    line-height:125px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+header .carousel-inner  h4{
+    font-size:18px;
+    font-weight:400;
+    line-height:23.4px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+section h2{
+    
+    color:rgb(31, 31, 31);
+    font-size:38px;
+    font-weight:700;
+    letter-spacing:0.65px;
+    line-height:38px;
+    margin-bottom:20px;
+    font-family: "Poppins", sans-serif;
+}
+section .sub-title{
+    font-family:"Open Sans", sans-serif;
+    color:rgb(153, 153, 153);
+    font-size:18px;
+    font-weight:300;
+    line-height:24.5px;
+    margin-bottom:70px;
+    margin-top: 20px;
+    width: 60%;
+    margin: auto;
+}
+.about-section .content p{
+    color:rgb(102, 102, 102);
+    font-size:14px;
+    line-height:24.5px;
+    margin-bottom:10px;
+}
+.about-section .content .skills .bar{
+    font-family:"Open Sans", sans-serif;
+    font-size:14px;
+    line-height:24.5px;     
+    color:rgb(68, 68, 68);
+       
+
+}
+.about-section .content .skills .bar .progress-value{
+text-align: right;
+}
+.about-section .content .skills .bar .progress-title{
+text-align: left;
+}
+.about-section .content .skills .bar .progress-bar{
+    background-color:rgb(242, 84, 84);
+    height:4px;
+    
+}
+.about-section .content .skills .bar .progress{
+    
+    height:4px;
+    
+}
+.projects-section .main-container{
+    overflow: hidden;
+
+}
+.team-section .content .team-image{
+    position: relative;
+    overflow: hidden;
+}
+.team-section .content .team-image img{
+    transition: 0.3s transform;
+}
+.team-section .content .team-overlay{
+    height:100%;
+    background-color: #f25454;
+    width: 315px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    transition: 0.3s opacity;
+    
+}
+.team-section .team-member:hover .team-overlay{
+    opacity: 0.8;
+}
+.team-section .team-member:hover .team-details h5{
+
+    color:#f25454;
+}
+.team-section .team-member:hover .team-image img{
+    transform: scale(1.1);
+}
+.team-section .content .team-overlay .fab{
+    color: white;
+    margin:0px 10px
+}
+.projects-section{
+    background-color:rgb(250, 250, 250);
+    
+
+}
+.projects-section .content-part .portfolio-filters span{
+    margin: 0px 10px;
+    color:rgb(40, 40, 40);
+    font-family:"Open Sans", sans-serif;
+    font-size:14px;
+    font-weight:600;
+    line-height:24.5px;
+
+}
+.project-image{
+    position: relative;
+    overflow: hidden;
+}
+.project-overlay{
+    width: 97%;
+    height: 97%;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity:0;
+    margin-left:5px;
+    margin-top: 5px;
+    transition: 0.3s opacity;
+    
+}
+.project-image:hover .project-overlay{
+    opacity: 0.8;
+}
+.projects-section .main-content .project-image img:hover{
+   transform: scale(1.1);
+}
+.project-image img{
+    
+}
+.services-section .service .fab{
+    color:#f35454;
+}
+.parallax-section{
+    background-image: url(../images/mission.jpg);
+    height: 400px;
+}
+.video-control{
+    width:40px;
+    height: 30px;
+    border: 1px solid white;
+    background-color: transparent;
+    padding-top: 6px;
+    padding-left: 5px;
+    margin: auto;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s background-color;
+}
+.video-control:hover{
+    background-color: white;
+    
+}
+.video-control:hover .video-control i{
+    color: black;
+    
+}
+.down-part{
+    color:rgb(102, 102, 102);
+    font-family:"Open Sans", sans-serif;
+    font-size:25px;
+    line-height:37.5px;
+    margin-bottom:10px;
+    width: 75%;
+    margin: auto;
+    margin-top: 20px;
+}
+.w-review{
+    width: 150px;
+    margin:0px 15px;
+}
+.blog-section{
+    background-color:rgb(250, 250, 250);
+}
+.blog-section .text-part{
+    padding: 15px 15px;
+    background-color:white;
+}
+.blog-section .text-part a{
+    color:black;
+    text-decoration: none;
+}
+.blog-section .image-part{
+position: relative;
+}
+.blog-section .image-part .category{
+    background-color:rgb(242, 84, 84);
+    color:rgb(255, 255, 255);
+    font-family:"Open Sans", sans-serif;
+    font-size:11px;
+    font-weight:600;
+    line-height:11px;
+    padding-bottom:10px;
+padding-left:15px;
+padding-right:15px;
+padding-top:10px;
+position: absolute;
+top: 10%;
+right: 0px;    
+border-radius: 3px;
+}
+
+.blog-section .image-part:hover .blog-section .image-part img{
+    transform: scale(1.1);
+}
+.clients .row{
+    margin-left: 50px;
+}
+.clients .image {
+    
+    
+    width: 20%;
+}
+.clients img{
+    opacity: 0.7;
+    transition: 0.3s opacity;
+}
+.clients .image img:hover{
+    opacity: 1;
+}
+.contact-section{
+    background-color:rgb(250, 250, 250);
+}
+.contact-section .text-part h3{
+    font-family:"Poppins", sans-serif;
+    font-size:32px;
+    font-weight:600;
+    line-height:32px;
+    margin-bottom:30px;
+}
+.contact-section .text-part .contact-data .icon .fa{
+    color: #f35454;
+}
+.contact-section .text-part .contact-data .contact-text h4{
+    font-size:18px;
+    font-weight:600;
+    line-height:24px;
+    transition: 0.3s color;
+}
+.contact-section .text-part .contact-data .contact-text h4:hover{
+    color: #f35454;
+}
+.contact-section .line{
+    width: 100%;
+    height:2px;
+    background-color:rgb(238, 238, 238);
+}
+.contact-section .contact-inputs input{
+    width: 100%;
+    background-color:white;
+    cursor:text;
+    width:545.25px;
+    border: 2px solid rgb(238, 238, 238);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    
+}
+.contact-section .contact-inputs textarea{
+    width: 100%;
+    background-color:white;
+    cursor:text;
+    width:545.25px;
+    border: 2px solid rgb(238, 238, 238);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 100px;
+}
